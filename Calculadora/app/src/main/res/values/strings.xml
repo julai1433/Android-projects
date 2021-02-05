@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Calculator</string>
+
+    <string name="reset">Limpiar</string>
+    <string name="add">+</string>
+    <string name="sustract">-</string>
+    <string name="multiply">x</string>
+    <string name="division">/</string>
+    <string name="result">0</string>
+    <string name="data1hint">Data 1</string>
+    <string name="data2hint">Data 2</string>
+</resources>

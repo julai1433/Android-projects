@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">InterfazComunicacion</string>
+    <string name="btn1">Cnfiguración</string>
+    <string name="btn2">Conectar</string>
+    <string name="btn3">Desconectar</string>
+</resources>

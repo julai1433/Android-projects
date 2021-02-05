@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">App8NOV_Sensor</string>
+    <string name="letreroX">Aceleración en X:</string>
+    <string name="letreroY">Aceleración en Y:</string>
+    <string name="letreroZ">Aceleración en Z:</string>
+    <string name="letreroG">Aceleración Total:</string>
+    <string name="letreroGmax">Máxima aceleración:</string>
+    <string name="Titulo">Proximidad</string>
+</resources>

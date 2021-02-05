@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Ecurp</string>
+    <string name="Apellido1">Primer apellido</string>
+    <string name="Apellido2">Segundo apellido</string>
+    <string name="Nombre1">Primer nombre</string>
+    <string name="Nombre2">Segundo nombre (opcional)</string>
+    <string name="SexoM">Masculino</string>
+    <string name="SexoF">Femenino</string>
+    <string name="entidad">Entidad federativa</string>
+    <string name="fechaNacimiento">Fecha de nacimiento</string>
+    <string name="hintdd">dd</string>
+    <string name="hintmm">mm</string>
+    <string name="hintaaaa">aaaa</string>
+    <string name="sexo">Sexo</string>
+    <string name="buscar">Buscar</string>
+    <string name="reset">Limpiar</string>
+    <string name="curpRes">CURP:</string>
+    <string name="signature">Created by Julio Sanchez</string>
+
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etEntrada"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:hint="Entrada"
+        android:text="@string/entrada"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="32dp"
+        android:onClick="Btn"
+        android:text="Convertir"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEntrada" />
+
+    <TextView
+        android:id="@+id/tvSalida"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="32dp"
+        android:hint="Salida"
+        android:text="@string/salida"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <TextView
+            android:text="@string/curpRes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tectView5"
+            android:textSize="24sp" android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/textView4"/>
+    <EditText
+            android:layout_width="65dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:id="@+id/aaFechaNac"
+            android:inputType="number" android:hint="@string/hintaaaa"
+            app:layout_constraintStart_toEndOf="@+id/mmFechaNac"
+            android:layout_marginStart="4dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/rgGender"/>
+    <EditText
+            android:layout_width="65dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:id="@+id/mmFechaNac"
+            android:inputType="number" android:hint="@string/hintmm"
+            app:layout_constraintStart_toEndOf="@+id/ddFechaNac"
+            android:layout_marginStart="4dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/rgGender"/>
+    <TextView
+            android:text="@string/entidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp"
+            android:textSize="16sp"
+            android:layout_marginTop="32dp" app:layout_constraintTop_toBottomOf="@+id/textView3"
+    />
+    <TextView
+            android:text="@string/fechaNacimiento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp"
+            android:textSize="16sp"
+            android:layout_marginTop="24dp" app:layout_constraintTop_toBottomOf="@+id/textView2"/>
+    <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Nombre2" android:id="@+id/secNameIn"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="16dp"
+            app:layout_constraintHorizontal_bias="1.0" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/firstNameIn"
+            android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"/>
+    <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/firstLastNameIn"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="16dp" android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"
+            app:layout_constraintHorizontal_bias="0.0" android:hint="@string/Apellido1"
+            android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"/>
+    <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Nombre1" android:id="@+id/firstNameIn"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="16dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/secLastnameIn"
+            android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"/>
+    <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Apellido2" android:id="@+id/secLastnameIn"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="16dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/firstLastNameIn"
+            android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"/>
+    <TextView
+            android:text="@string/sexo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp" android:layout_marginTop="32dp"
+            android:textSize="24sp"
+            app:layout_constraintTop_toBottomOf="@+id/secNameIn"/>
+    <Button
+            android:text="@string/buscar"
+            android:layout_width="190dp"
+            android:layout_height="70dp"
+            android:id="@+id/btnLook"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/txtResult" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp"/>
+    <Button
+            android:text="@string/reset"
+            android:layout_width="190dp"
+            android:layout_height="70dp"
+            android:id="@+id/btnClean"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/txtResult"
+            android:onClick="onClick"/>
+    <Spinner
+            android:layout_width="136dp"
+            android:layout_height="30dp"
+            android:id="@+id/spnState" android:layout_marginEnd="28dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/aaFechaNac"/>
+    <EditText
+            android:layout_width="65dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:id="@+id/ddFechaNac"
+            android:inputType="number" android:hint="@string/hintdd"
+            app:layout_constraintStart_toEndOf="@+id/textView3" android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/rgGender"/>
+    <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rgGender" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/secNameIn" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="128dp">
+        <RadioButton
+                android:text="@string/SexoF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/rbM" android:layout_weight="1"/>
+        <RadioButton
+                android:text="@string/SexoM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/rbH" android:layout_weight="1"/>
+    </RadioGroup>
+    <TextView
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:id="@+id/txtResult" android:layout_marginTop="14dp"
+            app:layout_constraintTop_toBottomOf="@+id/spnState" app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="24sp" android:textColor="#FF0000"
+            android:textStyle="bold"
+            android:layout_marginEnd="24dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6" android:text="@string/signature"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"
+            android:textStyle="italic" android:textColor="@color/BlueC" android:layout_marginTop="189dp"
+            app:layout_constraintTop_toBottomOf="@+id/btnLook"/>
+
+</android.support.constraint.ConstraintLayout>

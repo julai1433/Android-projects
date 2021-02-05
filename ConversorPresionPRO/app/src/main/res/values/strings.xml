@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ConversorPresionPRO</string>
+    <string name="entrada" />
+    <string name="salida" />
+    <string name="kg_cm3">Kg/cm3</string>
+    <string name="bar">Bar</string>
+</resources>

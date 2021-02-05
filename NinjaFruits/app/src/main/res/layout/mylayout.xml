@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="wrap_content">
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/apple"
+            android:id="@+id/ivFruit" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="4dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="4dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvFruit" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="16dp" android:layout_marginStart="48dp"
+            app:layout_constraintStart_toEndOf="@+id/ivFruit"
+            android:textColor="@color/colorAccent" android:textSize="30dp" android:textStyle="bold|italic"
+            android:text="Apple"/>
+</android.support.constraint.ConstraintLayout>

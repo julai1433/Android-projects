@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Clase5_Nov_19</string>
+    <string name="letreroX">Aceleración en X:</string>
+    <string name="letreroY">Aceleración en Y:</string>
+    <string name="letreroZ">Aceleración en Z:</string>
+    <string name="letreroG">Aceleración Total:</string>
+    <string name="letreroGmax">Máxima aceleración:</string>
+</resources>

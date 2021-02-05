@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574b</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="BlueC">#4e6cf3</color>
+    <color name="RedC">#C00000</color>
+    <color name="palido">#d2e1ff</color>
+</resources>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/IdControl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Interfaz Tiempo Real"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart1"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_below="@id/radioGroup"
+        android:layout_marginTop="25dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart2"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_below="@id/radioGroup"
+        android:layout_marginTop="25dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart3"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_below="@id/radioGroup"
+        android:layout_marginTop="25dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <EditText
+        android:id="@+id/IdDato"
+        android:layout_below="@id/IdDesconectar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dato"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/IdDesconectar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chart1"
+        android:layout_marginTop="25dp"
+        android:text="Desconectar" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/IdControl"
+        android:contextClickable="true"
+        android:textAlignment="center">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Variable 1"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Variable 2"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Variable 3"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+</RelativeLayout>

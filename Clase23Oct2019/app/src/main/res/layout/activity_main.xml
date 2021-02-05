@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/rgEdad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="16dp"
+        android:checkedButton="@+id/rb18"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNombre">
+
+        <RadioButton
+            android:id="@+id/rb18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="28dp"
+            android:checked="false"
+            android:text="@string/Ed18"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etNombre" />
+
+        <RadioButton
+            android:id="@+id/rb18_30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="51dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/Ed18_30"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rb18" />
+
+        <RadioButton
+            android:id="@+id/rb30_60"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="51dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/Ed30_60"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rb18_30" />
+
+        <RadioButton
+            android:id="@+id/rb60"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="51dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/Ed60"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rb30_60" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/rgSexo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="16dp"
+        android:checkedButton="@+id/rbM"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rgEdad">
+
+        <RadioButton
+            android:id="@+id/rbM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="28dp"
+            android:checked="false"
+            android:text="@string/SexoM"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rgEdad" />
+
+        <RadioButton
+            android:id="@+id/rbF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="51dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/SexoF"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rbM" />
+    </RadioGroup>
+
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Nombre"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="16dp"
+        android:onClick="Btn"
+        android:text="Info"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rgSexo" />
+
+    <TextView
+        android:id="@+id/tvSalida"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Información"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn" />
+
+</android.support.constraint.ConstraintLayout>

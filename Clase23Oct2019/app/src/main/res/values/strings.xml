@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Clase23Oct2019</string>
+    <string name="entrada" />
+    <string name="salida" />
+    <string name="Ed18">Menor de 18</string>
+    <string name="Ed18_30">18-30</string>
+    <string name="Ed30_60">30-60</string>
+    <string name="Ed60">Mayor a 60</string>
+    <string name="SexoM">Hombre</string>
+    <string name="SexoF">Mujer</string>
+
+
+</resources>

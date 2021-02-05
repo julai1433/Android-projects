@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Prueba1</string>
+    <string name="sigue">...</string>
+    <string name="mensaje">0</string>
+    <string name="reset">Reset</string>
+</resources>

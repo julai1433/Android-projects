@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+    <Button
+            android:text="@string/division"
+            android:textSize="60sp"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:id="@+id/btnDiv" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="16dp"
+            android:layout_marginBottom="32dp" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnSus" android:layout_marginTop="8dp"/>
+    <Button
+            android:text="@string/sustract"
+            android:textSize="60sp"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:id="@+id/btnSus" android:layout_marginEnd="16dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="32dp" app:layout_constraintTop_toBottomOf="@+id/txtResult"/>
+    <Button
+            android:text="@string/multiply"
+            android:textSize="60sp"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:id="@+id/btnMul"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="32dp"
+            app:layout_constraintTop_toBottomOf="@+id/btnAdd" android:layout_marginTop="8dp"/>
+    <Button
+            android:text="@string/add"
+            android:textSize="60sp"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:id="@+id/btnAdd" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp" app:layout_constraintTop_toBottomOf="@+id/txtResult"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number|textPersonName"
+            android:ems="10"
+            android:id="@+id/etxData2" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="96dp" android:layout_marginTop="18dp"
+            app:layout_constraintTop_toBottomOf="@+id/etxData1" android:hint="@string/data2hint"
+            android:autofillHints=""/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number|textPersonName"
+            android:ems="10"
+            android:id="@+id/etxData1" android:layout_marginEnd="96dp"
+            app:layout_constraintEnd_toEndOf="parent" android:hint="@string/data1hint"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="16dp"
+            android:autofillHints=""/>
+    />
+    <TextView
+            android:text="@string/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtResult"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="32dp" app:layout_constraintTop_toBottomOf="@+id/etxData2"/>
+</android.support.constraint.ConstraintLayout>

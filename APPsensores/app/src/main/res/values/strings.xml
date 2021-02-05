@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">APPsensores</string>
+    <string name="letreroX">Aceleración en X:</string>
+    <string name="letreroY">Aceleración en Y:</string>
+    <string name="letreroZ">Aceleración en Z:</string>
+    <string name="letreroLuz">Nivel de iluminación:</string>
+    <string name="Titulo">Sensor Luz y Aceleración</string>
+
+</resources>
